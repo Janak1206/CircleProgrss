@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+
+        <attr name="mainColor" format="color" />
+        <attr name="cirlceBgColor" format="color" />
+        <attr name="cirlceColor" format="color" />
+
+        <attr name="mainThickness" format="dimension" />
+        <attr name="circleBgThickness" format="dimension" />
+        <attr name="circleThickness" format="dimension" />
+    </declare-styleable>
+</resources>

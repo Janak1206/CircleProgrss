@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="clg_top_bottom_dark">#414042</color>
+    <color name="clg_per_green_dark">#0CC52B</color>
+    <color name="clg_btn_yellow">#FEC437</color>
+    <color name="clg_white">#FFFFFF</color>
+    <color name="clg_black">#000000</color>
+</resources>

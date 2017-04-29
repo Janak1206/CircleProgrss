@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/circle_shape_bg"
+        android:orientation="vertical"
+        android:padding="10dp">  
+
+        <com.circleProgress.CircleProgressBar
+            android:id="@+id/circleProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:circleBgThickness="4dp"
+            app:circleThickness="4dp"
+            app:cirlceBgColor="@color/clg_white"
+            app:cirlceColor="@color/clg_per_green_dark"
+            app:mainColor="@color/clg_top_bottom_dark"
+            app:mainThickness="20dp" />
+
+        <TextView
+            android:id="@+id/tv_precentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/clg_top_bottom_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
