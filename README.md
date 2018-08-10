@@ -1,7 +1,5 @@
 # CircleProgrss
 
-[![](https://jitpack.io/v/Janak1206/CircleProgrss.svg)](https://jitpack.io/#Janak1206/CircleProgrss)
-
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
